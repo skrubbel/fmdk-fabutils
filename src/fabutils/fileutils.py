@@ -13,6 +13,8 @@ def excel_sheet_to_pyarrow(
     Args:
         abfss_path: ABFSS path to the Excel file (.xlsx format)
         sheet_name: Name of the sheet to read
+        logger: Logger object
+        **Kwargs: Keyword arguments (Passed on to pandas.read_excel())
 
     Returns:
         PyArrow Table containing the sheet data
