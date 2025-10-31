@@ -25,6 +25,7 @@ dev = [
     "dummy-notebookutils>=1.5.4",
     "isort",
     "jupyterlab",
+    "mimesis>=18.0.0",
     "mypy",
     "pyspark",
     "semantic-link-labs>=0.12.6",

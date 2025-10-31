@@ -4,7 +4,7 @@ import pandas as pd
 import pyarrow as pa
 
 
-def excel_sheet_to_pyarrow(
+def excel_sheet_to_pyarrow_table(
     abfss_path: str, sheet_name: str, logger: Logger = None, **kwargs: Any
 ) -> pa.Table:
     """
